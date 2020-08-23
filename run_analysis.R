@@ -223,6 +223,9 @@ dato_train_test_average <- dat_act_var3 %>%
                           arrange(activity, subject) %>%
                           spread(variable_m, average )
 dat_tydi <- as_tibble(dato_train_test_average)
-print(dat_tydi)
+
+write.table(dat_tydi, file="tidy_dataset.txt", row.names = FALSE)
+
+# print(dat_tydi)
 # write.csv(dat_tydi, file="tidy_dataset.csv", col.names = TRUE, row.names = FALSE)
  
