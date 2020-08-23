@@ -38,13 +38,14 @@ Repository for  Getting and Cleaning Data Course Project
 	   
 	For example:
 	
-	subject   activity V121tBodyGyro_mean_X V122tBodyGyro_mean_Y V123tBodyGyro_mean_Z ...
-		<int>   <chr>               <dbl>            <dbl>            <dbl>            
-		1 LAYING            -0.0166          -0.0645           0.149            
-		1 SITTING           -0.0454          -0.0919           0.0629
+	subject   activity	V121tBodyGyro_mean_X	V122tBodyGyro_mean_Y	V123tBodyGyro_mean_Z ...
+	<int>	<chr>      	<dbl>            	<dbl>            	<dbl>            
+		1 LAYING            -0.0166          	-0.0645           	0.149            
+		1 SITTING           -0.0454          	-0.0919           	0.0629
 
-=================================================================================================
-Note: The script run_analysis.R uses the libraries tidyr and dplyr, so they need to be installed previously.
+
+Note: 
+The script run_analysis.R uses the libraries tidyr and dplyr, so they need to be installed previously.
 At the end the line to write the dataframe is commented, but it can be edited if uoy want to get a file instead of a printed output.
 write.csv(dat_tydi, file="tidy_dataset.csv", col.names = TRUE, row.names = FALSE)
-=================================================================================================
+
