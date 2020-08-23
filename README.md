@@ -39,9 +39,9 @@ Repository for  Getting and Cleaning Data Course Project
 	For example:
 	
 	subject   activity	V121tBodyGyro_mean_X	V122tBodyGyro_mean_Y	V123tBodyGyro_mean_Z ...
-	<int>	<chr>      	<dbl>            	<dbl>            	<dbl>            
-		1 LAYING            -0.0166          	-0.0645           	0.149            
-		1 SITTING           -0.0454          	-0.0919           	0.0629
+	<int>	<chr>			<dbl>            	<dbl>            	<dbl>            
+		1 LAYING		-0.0166          	-0.0645           	0.149            
+		1 SITTING		-0.0454          	-0.0919           	0.0629
 
 
 Note: 
