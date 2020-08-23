@@ -46,6 +46,6 @@ Repository for  Getting and Cleaning Data Course Project
 
 Note: 
 The script run_analysis.R uses the libraries tidyr and dplyr, so they need to be installed previously.
-At the end the line to write the dataframe is commented, but it can be edited if uoy want to get a file instead of a printed output.
+At the end the line to write the dataframe is commented, but it can be edited if you want to get a file instead of a printed output.
 write.csv(dat_tydi, file="tidy_dataset.csv", col.names = TRUE, row.names = FALSE)
 
