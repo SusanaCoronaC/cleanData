@@ -87,7 +87,9 @@ V543fBodyBodyGyroJerkMag_std
 
 The datasets were used to get one data set with the average of each variable for each activity and subject,
 the data were labeled appropriately and descriptive names were assigned to the activity
+
 For example:
+
    subject activity V121tBodyGyro_mean_X V122tBodyGyro_mean_Y V123tBodyGyro_mean_Z ...
      <int> <chr>               <dbl>            <dbl>            <dbl>            
         1 LAYING            -0.0166          -0.0645           0.149            
