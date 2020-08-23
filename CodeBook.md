@@ -84,7 +84,7 @@ V542fBodyBodyGyroJerkMag_mean
 V543fBodyBodyGyroJerkMag_std
 
 
-=================================================================================================
+
 The datasets were used to get one data set with the average of each variable for each activity and subject,
 the data were labeled appropriately and descriptive names were assigned to the activity
 For example:
@@ -92,13 +92,17 @@ For example:
      <int> <chr>               <dbl>            <dbl>            <dbl>            
         1 LAYING            -0.0166          -0.0645           0.149            
         1 SITTING           -0.0454          -0.0919           0.0629
-=================================================================================================
+
 
 The original set of variables that were estimated from these signals are: 
 
 mean(): Mean value
 std(): Standard deviation
 
+and were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+Tidy data set:
 The average of each variable for each activity and subject were estimated with the mean() function
 groupping the data by activity and subject.
-=================================================================================================
+
