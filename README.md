@@ -27,18 +27,20 @@ Repository for  Getting and Cleaning Data Course Project
 	- variable_m
 	- valor
 	For example:
-	    subject           activity        variable_m                valor
-				1         LAYING         WALKING V1tBodyAcc_mean_X  0.28202157
-				2         LAYING         WALKING V1tBodyAcc_mean_X  0.25584075
+	    subject     activity        variable_m                valor
+		1         LAYING         WALKING V1tBodyAcc_mean_X  0.28202157
+		2         LAYING         WALKING V1tBodyAcc_mean_X  0.25584075
 	
 	b) Finally using the functions group by, summarize, arrange and spread to get tidy data 
 	   with the average of each variable for each activity and subject and print the results. 
 		For example:
-		subject activity V121tBodyGyro_mean_X V122tBodyGyro_mean_Y V123tBodyGyro_mean_Z ...
+	subject   activity V121tBodyGyro_mean_X V122tBodyGyro_mean_Y V123tBodyGyro_mean_Z ...
 		<int>   <chr>               <dbl>            <dbl>            <dbl>            
-			1 LAYING            -0.0166          -0.0645           0.149            
-			1 SITTING           -0.0454          -0.0919           0.0629
+		1 LAYING            -0.0166          -0.0645           0.149            
+		1 SITTING           -0.0454          -0.0919           0.0629
 
 =================================================================================================
 Note: The script run_analysis.R uses the libraries tidyr and dplyr, so they need to be installed previously.
+At the end the line to write the dataframe is commented, but it can be edited if uoy want to get a file instead of a printed output.
+write.csv(dat_tydi, file="tidy_dataset.csv", col.names = TRUE, row.names = FALSE)
 =================================================================================================
